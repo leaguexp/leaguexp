@@ -22,7 +22,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          path: 'docs',
+          routeBasePath: 'support'
         },
         blog: {
           showReadingTime: true,
@@ -39,40 +40,30 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
-        respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'LeagueXP',
         logo: {
           alt: 'LeagueXP Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          { to: '/greenlight', label: 'Greenlight', position: 'left' },
+          { to: '/litgames', label: 'Lit.Games', position: 'left' },
+          { to: '/operator', label: 'OperatorOS', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          { type: 'doc', docId: 'home', position: 'left', label: 'Support' },
+          { to: '/about', label: 'About', position: 'left' },
         ],
       },
       footer: {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Projects',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+              { to: '/greenlight', label: 'Greenlight' },
+              { to: '/litgames', label: 'Lit.Games' },
+              { to: '/operator', label: 'OperatorOS' },
             ],
           },
           {
@@ -98,6 +89,10 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+              {
+                label: 'Product Support',
+                to: '/support/home',
               },
               {
                 label: 'GitHub',

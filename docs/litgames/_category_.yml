@@ -1,0 +1,8 @@
+label: 'Lit.Games'
+position: 3
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Lit.Games Support
+  slug: '/litgames'

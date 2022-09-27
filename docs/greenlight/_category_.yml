@@ -1,0 +1,8 @@
+label: 'Greenlight Traffic AI'
+position: 2
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Greenlight Traffic AI Support
+  slug: '/greenlight'

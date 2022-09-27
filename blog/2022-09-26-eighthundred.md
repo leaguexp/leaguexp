@@ -1,5 +1,4 @@
 ---
-slug: eighthundred
 title: "Eight. Hundred. Names."
 authors: [samuel, rowan]
 tags: [litgames, dragondungeon]
