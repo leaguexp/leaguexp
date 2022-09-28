@@ -11,5 +11,17 @@ export default function ProductFocusOperator() {
                 <img src="/img/expand.svg" alt="Scroll down" />
             </div>
         </header>
+        <section style={{ background: 'linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.pexels.com/photos/394377/pexels-photo-394377.jpeg)' }}>
+            <div>
+                <h1>Cars have evolved. Intersections haven't.</h1>
+                <p></p>
+            </div>
+        </section>
+        <section style={{ background: 'linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg)' }}>
+            <div>
+                <h1>So what about AI?</h1>
+                <p></p>
+            </div>
+        </section>
     </Layout>
 }

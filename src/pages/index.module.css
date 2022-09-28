@@ -60,3 +60,12 @@
   padding: 40px;
   color: white;
 }
+
+section {
+  padding: 30px;
+  background-position: center !important;
+  background-size: cover !important;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+}
