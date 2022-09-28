@@ -40,6 +40,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'dark',
+        disableSwitch: true
       },
       navbar: {
         logo: {

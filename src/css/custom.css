@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
 
 * {
-  font-family: 'Oxygen', sans-serif !important;
+  font-family: 'Inter Tight', sans-serif !important;
 }
 
 :root {
-  --ifm-color-primary: orange;
+  --ifm-color-primary: #f9461c;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 .navbar__logo {
   margin-right: 0;
+  height: 55px;
 }
 
 .navbar {
-  height: 7vh;
-  border-bottom: 3px solid orange;
+  min-height: 10vh;
+  border-bottom: 3px solid #f9461c;
+  font-size: 16pt;
 }

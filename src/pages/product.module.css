@@ -1,0 +1,27 @@
+.productHero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.productHero div {
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.productHero div h1 {
+    font-size: 50pt;
+}
+
+.productHero div h2 {
+    font-size: 30pt;
+    font-weight: normal;
+}
+
+.productHero div img {
+    height: 30pt;
+}
