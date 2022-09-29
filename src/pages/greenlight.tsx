@@ -23,5 +23,23 @@ export default function ProductFocusOperator() {
                 <p></p>
             </div>
         </section>
+        <section style={{ background: 'linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.pexels.com/photos/1692694/pexels-photo-1692694.jpeg)' }}>
+            <div>
+                <h1>Works fast. Works well.</h1>
+                <p></p>
+            </div>
+        </section>
+        <section style={{ background: 'linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.pexels.com/photos/1209434/pexels-photo-1209434.jpeg)' }}>
+            <div>
+                <h1>It's easy. Too easy?</h1>
+                <p></p>
+            </div>
+        </section>
+        <section style={{ justifyContent: 'center' }}>
+            <div style={{ textAlign: 'center' }}>
+                <h1>Get started today.</h1>
+                <button className={styles.actionButton} style={{ borderColor: 'green' }}>Buy Now</button>
+            </div>
+        </section>
     </Layout>
 }

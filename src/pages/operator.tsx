@@ -11,5 +11,35 @@ export default function ProductFocusOperator() {
                 <img src="/img/expand.svg" alt="Scroll down" />
             </div>
         </header>
+        <section style={{ background: 'linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url()' }}>
+            <div>
+                <h1>A desktop for the next generation (of computing).</h1>
+                <p></p>
+            </div>
+        </section>
+        <section style={{ background: 'linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url()' }}>
+            <div>
+                <h1>So what about AI?</h1>
+                <p></p>
+            </div>
+        </section>
+        <section style={{ background: 'linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url()' }}>
+            <div>
+                <h1>Works fast. Works well.</h1>
+                <p></p>
+            </div>
+        </section>
+        <section style={{ background: 'linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url()' }}>
+            <div>
+                <h1>It's easy. Too easy?</h1>
+                <p></p>
+            </div>
+        </section>
+        <section style={{ justifyContent: 'center' }}>
+            <div style={{ textAlign: 'center' }}>
+                <h1>Get started today.</h1>
+                <button className={styles.actionButton} style={{ borderColor: 'green' }}>Buy Now</button>
+            </div>
+        </section>
     </Layout>
 }
