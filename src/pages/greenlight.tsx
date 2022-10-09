@@ -38,7 +38,7 @@ export default function ProductFocusOperator() {
         <section style={{ justifyContent: 'center' }}>
             <div style={{ textAlign: 'center' }}>
                 <h1>Get started today.</h1>
-                <button className={styles.actionButton} style={{ borderColor: 'green' }}>Buy Now</button>
+                <button className={styles.actionButton} style={{ borderColor: 'green' }}>Coming soon...</button>
             </div>
         </section>
     </Layout>

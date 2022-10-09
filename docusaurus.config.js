@@ -52,35 +52,18 @@ const config = {
           { to: '/litgames', label: 'Lit.Games', position: 'left' },
           { to: '/operator', label: 'OperatorOS', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { type: 'doc', docId: 'home', position: 'left', label: 'Support' },
+          // { type: 'doc', docId: 'home', position: 'left', label: 'Support' },
         ],
       },
       footer: {
         style: 'light',
         links: [
           {
-            title: 'Projects',
+            title: 'Products',
             items: [
               { to: '/greenlight', label: 'Greenlight' },
               { to: '/litgames', label: 'Lit.Games' },
               { to: '/operator', label: 'OperatorOS' },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
             ],
           },
           {
@@ -90,13 +73,22 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'Product Support',
-                to: '/support/home',
-              },
+              // {
+              //   label: 'Product Support',
+              //   to: '/support/home',
+              // },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/leaguexp',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/qpQuBJHSPZ',
               },
             ],
           },
