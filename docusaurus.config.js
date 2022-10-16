@@ -52,6 +52,7 @@ const config = {
           { to: '/litgames', label: 'Lit.Games', position: 'left' },
           { to: '/operator', label: 'OperatorOS', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/team', label: 'Team', position: 'left' },
           // { type: 'doc', docId: 'home', position: 'left', label: 'Support' },
         ],
       },

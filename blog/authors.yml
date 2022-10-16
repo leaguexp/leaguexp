@@ -1,20 +1,20 @@
 keith:
   name: Keith Groves
-  image_url: https://www.jointheleague.org/wp-content/uploads/2021/10/KeithGroves2.png
+  image_url: /img/team/keith.jpg
 
 samuel:
   name: Samuel Sharp
   url: https://samuelsharp.com
-  image_url: https://github.com/samuelbeepdev.png
+  image_url: /img/team/samuel.jpg
 
 rowan:
-  name: WriterArtistCoder
+  name: Rowan Law
   url: https://tinystripz.com
-  image_url: https://github.com/writerartistcoder.png
+  image_url: /img/team/rowan.jpg
 
 max:
   name: Max Spirdonov
-  image_url: https://github.com/maxspiro.png
+  image_url: /img/team/max.jpg
 
 sameer:
   name: Sameer Prakash
