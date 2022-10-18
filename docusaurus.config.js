@@ -53,7 +53,8 @@ const config = {
           { to: '/operator', label: 'OperatorOS', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/team', label: 'Team', position: 'left' },
-          // { type: 'doc', docId: 'home', position: 'left', label: 'Support' },
+          { type: 'doc', docId: 'home', position: 'left', label: 'Support' },
+          { to: '/login', label: 'Launchpad', position: 'right' },
         ],
       },
       footer: {
