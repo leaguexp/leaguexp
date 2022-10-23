@@ -12,19 +12,19 @@ export default function Home(): JSX.Element {
         <img src="/img/team/rowan.jpg" alt="Rowan" height={100} />
         <h2>Rowan Law</h2>
         <h3>Product Lead</h3>
-        <p>Rowan is a product lead for Greenlight Traffic AI. He spends his free time on animations and art, and is currently working on an indie TV show. His heart was made of fire, but his foot was just made out of regular old flesh.</p>
+        <p>Rowan is a product lead for Greenlight Traffic AI. He spends his free time on animations and art, and is currently working on an indie TV show. His heart was made of fire, but his foot was just made out of regular old flesh, and his teeth were made of an unknown substance.</p>
       </div>
       <div className={styles.person}>
         <img src="/img/team/samuel.jpg" alt="Samuel" height={100} />
         <h2>Samuel Sharp</h2>
         <h3>Product Lead</h3>
-        <p>Samuel is a product lead on the Lit.Games and OperatorOS teams. According to Rowan, he is made up of ground-up eyelids. In his limited free time, he enjoys setting up computers and riding trains.</p>
+        <p>Samuel is a product lead on the Lit.Games and OperatorOS teams. In his limited free time, he enjoys setting up computers and riding trains.</p>
       </div>
       <div className={styles.person}>
         <img src="/img/team/max.jpg" alt="Max" height={100} />
         <h2>Max Spiridonov</h2>
         <h3>Senior Developer</h3>
-        <p>Max is a senior developer on the Greenlight Traffic AI team.</p>
+        <p>Max is a senior developer on the Greenlight Traffic AI team. </p>
       </div>
       <div className={styles.person}>
         <img src="/img/team/zach.jpg" alt="Zach" height={100} />
