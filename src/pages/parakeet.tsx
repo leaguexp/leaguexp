@@ -4,17 +4,17 @@ import styles from './product.module.css'
 
 export default function ProductFocusOperator() {
     return <Layout>
-        <header className={styles.productHero} style={{ background: 'url(https://images.unsplash.com/photo-1620121478247-ec786b9be2fa)' }}>
-            <div style={{ background: 'rgba(0, 161, 222, 0.7)', color: 'white' }}>
-                <h1>OperatorOS</h1>
-                <h2>The operating system built for people.</h2>
+        <header className={styles.productHero} style={{ background: 'url(https://lit.games/img/wizardwars/keyart.png)' }}>
+            <div style={{ background: 'rgba(82, 35, 152, 0.7)', color: 'white' }}>
+                <h1>Parakeet</h1>
+                <h2>Focus on building experiences.</h2>
                 <img src="/img/expand.svg" alt="Scroll down" />
             </div>
         </header>
         <section style={{ justifyContent: 'center', padding: '40px' }}>
             <div style={{ textAlign: 'center' }}>
                 <h1>Get started today.</h1>
-                <button className={styles.actionButton} style={{ borderColor: '#00a1de' }}>Coming soon...</button>
+                <button className={styles.actionButton} style={{ borderColor: '#522398' }} onClick={() => window.location.href = 'https://lit.games'} >Play Now</button>
             </div>
         </section>
     </Layout>

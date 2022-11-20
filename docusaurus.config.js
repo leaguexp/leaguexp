@@ -39,8 +39,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: true
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false
       },
       navbar: {
         logo: {
@@ -49,8 +50,8 @@ const config = {
         },
         items: [
           { to: '/greenlight', label: 'Greenlight', position: 'left' },
-          { to: '/litgames', label: 'Lit.Games', position: 'left' },
           { to: '/operator', label: 'OperatorOS', position: 'left' },
+          { to: '/parakeet', label: 'Parakeet', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/team', label: 'Team', position: 'left' },
           { type: 'doc', docId: 'home', position: 'left', label: 'Support' },
@@ -63,8 +64,8 @@ const config = {
             title: 'Products',
             items: [
               { to: '/greenlight', label: 'Greenlight' },
-              { to: '/litgames', label: 'Lit.Games' },
               { to: '/operator', label: 'OperatorOS' },
+              { to: '/parakeet', label: 'Parakeet' },
             ],
           },
           {
@@ -74,10 +75,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              // {
-              //   label: 'Product Support',
-              //   to: '/support/home',
-              // },
+              {
+                label: 'Product Support',
+                to: '/support/home',
+              },
             ],
           },
           {
