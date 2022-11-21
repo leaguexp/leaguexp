@@ -20,3 +20,22 @@
   border-bottom: 3px solid #f9461c;
   font-size: 16pt;
 }
+
+.indicator {
+  background-size: cover;
+  object-fit: cover;
+  width: 180px !important;
+  height: 180px !important;
+  margin: 30px;
+  border-radius: 1000px;
+  aspect-ratio: 1 / 1;
+}
+
+.indicator.target {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.indicator.target:hover {
+  transform: scale(1.4) rotate(0.03turn);
+}
