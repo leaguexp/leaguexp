@@ -8,7 +8,7 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Team`}
       description="We make cool things that change the world." wrapperClassName={styles.team}>
-      <h1>Meet the team that makes it all happen.</h1>
+      <h1 style={{ color: 'white' }}>Meet the team that makes it all happen.</h1>
       <div className={styles.people}>
         <div className={styles.person}>
           <img src="/img/team/samuel.png" alt="Samuel" height={100} />
@@ -57,7 +57,7 @@ export default function Home(): JSX.Element {
           <h2>Vic Wintriss</h2>
           <h3>Board Advisor</h3>
           <p>Vic is the founder of the LEAGUE of Amazing Programmers, which has been churning out degenrates like us for over a decade. He is retired from the LEAGUE and now advises the LeagueXP board.</p>
-          {/* <i>vic@leaguexp.dev</i> */}
+          <i>vic@leaguexp.dev</i>
         </div>
       </div>
     </Layout>
