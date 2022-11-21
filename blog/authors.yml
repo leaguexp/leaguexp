@@ -1,25 +1,34 @@
-keith:
-  name: Keith Groves
-  image_url: /img/team/keith.jpg
-
 samuel:
   name: Samuel Sharp
-  url: https://samuelsharp.com
-  image_url: /img/team/samuel.jpg
+  title: Product Lead, Parakeet & Operator
+  image_url: /img/team/samuel.png
 
 rowan:
   name: Rowan Law
-  url: https://tinystripz.com
-  image_url: /img/team/rowan.jpg
+  title: Product Lead, Greenlight
+  image_url: /img/team/rowan.png
 
 max:
   name: Max Spirdonov
-  image_url: /img/team/max.jpg
+  title: Senior Developer
+  image_url: /img/team/max.png
+
+zach:
+  name: Zach Fitz
+  title: Senior Developer
+  image_url: /img/team/zach.png
 
 sameer:
   name: Sameer Prakash
-  image_url: https://github.com/redfox360.png
+  title: Senior Developer
+  image_url: /img/team/sameer.png
+
+keith:
+  name: Keith Groves
+  title: Board Advisor
+  image_url: /img/team/keith.png
 
 vic:
   name: Vic Wintriss
-  image_url: https://www.jointheleague.org/wp-content/uploads/2021/10/VicWintriss.png
+  title: Board Advisor
+  image_url: /img/team/vic.png

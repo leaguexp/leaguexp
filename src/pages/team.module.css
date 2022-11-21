@@ -1,14 +1,30 @@
+.team {
+    padding: 30px;
+    text-align: center;
+}
+
 .people {
     padding: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .person {
     padding: 10px;
+    flex: 300px;
     text-align: center;
+    border: 3px solid #f9461c;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .person img {
     border-radius: 100px;
+    box-shadow: 0 0 10px #f9461c;
+}
+
+.person i {
+    font-weight: bold;
+    color: #f9461c;
 }

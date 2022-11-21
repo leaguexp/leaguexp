@@ -4,10 +4,12 @@ pagination_next: null
 pagination_prev: null
 ---
 
-import { ProductFancyLink } from '../src/components/ProductFancyLink'
+import Link from '@docusaurus/Link';
 
 # LeagueXP Support Home
 
-<ProductFancyLink type='grl' />
-<ProductFancyLink type='lit' />
-<ProductFancyLink type='oos' />
+We're not perfect! If you need help with your product, you've come to the right place! Just select the product you're having trouble with below or in the sidebar. If our support center doesn't have what you need, feel free to email us personally: samuel@leaguexp.dev.
+
+<Link to={'/support/greenlight'}><img className='indicator target' style={{ boxShadow: '0 0 20px #009b3a', border: '4px solid #009b3a' }} src="https://github.com/greenlight-solutions.png" alt="Greenlight AI Logo" /></Link>
+<Link to={'/support/operator'}><img className='indicator target' style={{ boxShadow: '0 0 40px #00a1de', border: '4px solid #00a1de'  }} src="https://images.unsplash.com/photo-1620121478247-ec786b9be2fa" alt="Operator Logo" /></Link>
+<Link to={'/support/parakeet'}><img className='indicator target' style={{ boxShadow: '0 0 40px #522398', border: '4px solid #522398'  }} src="https://images.unsplash.com/photo-1444464666168-49d633b86797" alt="Parakeet Logo" /></Link>

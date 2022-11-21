@@ -6,7 +6,7 @@ export default function ProductFocusOperator() {
     return <Layout>
         <header className={styles.productHero} style={{ background: 'url(https://images.unsplash.com/photo-1620121478247-ec786b9be2fa)' }}>
             <div style={{ background: 'rgba(0, 161, 222, 0.7)', color: 'white' }}>
-                <img className='indicator' style={{ boxShadow: '0 0 40px #00a1de', border: '4px solid #00a1de'  }} src="https://images.unsplash.com/photo-1661961110671-77b71b929d52" alt="Operator Logo" />
+                <img className='indicator' style={{ boxShadow: '0 0 40px #00a1de', border: '4px solid #00a1de'  }} src="https://images.unsplash.com/photo-1620121478247-ec786b9be2fa" alt="Operator Logo" />
                 <h1>OperatorOS</h1>
                 <h2>The operating system built for people.</h2>
                 <img src="/img/expand.svg" alt="Scroll down" />
