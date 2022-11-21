@@ -88,10 +88,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/leaguexp',
               },
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/qpQuBJHSPZ',
-              },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discord.gg/qpQuBJHSPZ',
+              // },
             ],
           },
         ],
