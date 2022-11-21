@@ -13,8 +13,8 @@ export default function Home(): JSX.Element {
         <div className={styles.person}>
           <img src="/img/team/samuel.png" alt="Samuel" height={100} />
           <h2>Samuel Sharp</h2>
-          <h3>Product Lead</h3>
-          <p>Samuel is the product lead for Parakeet and OperatorOS. In his limited free time, he enjoys setting up computers and riding trains.</p>
+          <h3>CEO</h3>
+          <p>Samuel is the CEO of LeagueXP and the product lead for Parakeet and OperatorOS. In his limited free time, he enjoys setting up computers and riding trains.</p>
           <i>samuel@leaguexp.dev</i>
         </div>
         <div className={styles.person}>
